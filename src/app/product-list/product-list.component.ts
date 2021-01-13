@@ -1,7 +1,14 @@
 import { Component } from '@angular/core';
 
-import { products } from '../products';
+import { products } from '../products'; // import the product list array
 
+/**
+ * ProductListComponent {}
+ * Exports to be used in the frontend:
+ * - products
+ * - share(){}
+ * - onNotify(){}
+ */
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
